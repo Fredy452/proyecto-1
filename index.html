@@ -1,18 +1,77 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Covid-19 AppWeb</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/app.css">
+  <!--  cdn  fontawsome v4 para el icono -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-    <title>Proyecto 1</title>
-  </head>
-  <body>
-    <h1>Proyecto 1</h1>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- JavaScript -->
-    <script src="js/app.js"></script>
-  </body>
+  <!-- CDNs -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+  <link rel="stylesheet" type="text/css" href="css/app.css" />
+</head>
+<body onload="alerta()">
+  <div class="container">
+    <h2>COVID-19 Casos en <span id="pais"></span> <img  src="" id="flag"></h2>
+    <!-- Implementar Buscador -->
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" id="buscar" placeholder="Buscar Pais" aria-label="Recipient's username" aria-describedby="button-addon2">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" onclick="buscar()" id="button-addon2">Buscar</button>
+      </div>
+    </div>
+    <div class="board">
+
+      <div class="card ca">
+        <i class="fa fa-th-list"></i>
+        <h5>Total Casos</h5>
+        <span id="casos"></span>
+      </div>
+
+      <div class="card t">
+        <i class="fa fa-eye"></i>
+        <h5>Tests Realizados</h5>
+        <span id="tests"></span>
+      </div>
+
+      <div class="card a">
+        <i class="fa fa-tachometer"></i>
+        <h5>Casos Activos</h5>
+        <span id="activos"></span>
+      </div>
+
+      <div class="card d">
+        <i class="fa fa-times"></i>
+        <h5>Total Muertos</h5>
+        <span id="muertos"></span>
+      </div>
+
+      <div class="card r">
+        <i class="fa fa-check-square-o"></i>
+        <h5>Casos Recuperados</h5>
+        <span id="recuperados"></span>
+      </div>
+
+      <div class="card cr">
+        <i class="fa fa-times-circle"></i>
+        <h5>Casos Criticos</h5>
+        <span id="criticos"></span>
+      </div>
+
+    </div>
+  </div>    <!-- JavaScript -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <!-- CDNs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+  <script src="js/app.js"></script>
+
+</body>
 </html>
