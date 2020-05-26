@@ -4,7 +4,9 @@
 **Fecha de reentrega:** 26 de Mayo de 2020 (inclusive).
 
 **Tema elegido Tema 3 - Covid-19**
-la pagina que desarrolle utilizando la Api de https://corona.lmao.ninja/ que consiste en una pagina que muestra informacon basica de casos del coronavirus utilizando ajax, para hacer el envio de datos en forma asincrona.
+
+El tema que elegí para el proyecto 1 es el de covid-19, mi proyecto consiste en una pagina que muestra datos de un país sobre el coronavirus datos como, total de casos, muertes, recuperados, etc. todos estos datos son recuperados a través de la Api de https://corona.lmao.ninja/ que nos brinda toda la información, para mostrar la informacion en forma asíncrona utilizamos ajax, también utilice bootstrap, también utilice toastr  que es una librería de JavaScript para notificaciones sin bloqueo.
+En cuanto a la interacción de la pagina el usuario tiene la posibilidad de ingresar cualquier país ya sea el nombre completo del país o abreviando ej. Argentina o Ar.
 
 
 ## **Descripción Tema 3 - Covid-19**
