@@ -2,6 +2,7 @@
 
 **Fecha de entrega:** 14 de Mayo de 2020 (inclusive).
 **Fecha de reentrega:** 26 de Mayo de 2020 (inclusive).
+Video descriptivo: https://drive.google.com/file/d/1alXidwfGo6Kf78n6OLL0GXUv8RVzdVHh/view?usp=sharing
 
 **Tema elegido Tema 3 - Covid-19**
 
